@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.body {
+  background: no-repeat url(../img/bg3.jpg);
+  min-height: 100vh;
+  background-size: 100vw 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#menu {
+  background: linear-gradient(#b8edf0, #f1f1f1);
+  height: 90vmin;
+  width: 96vmin;
+  border: 2px solid black;
+}
+#menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#menu .btn {
+  background-color: gray;
+
+  margin: 30px;
+  padding: 12px 25px;
+  border-radius: 23px;
+  border: 2px solid gray;
+  cursor: pointer;
+}
+
+#menu .btn a {
+  text-decoration: none;
+
+  margin: 20px;
+  padding: 9px 15px;
+  color: white;
+}
+.gameName {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  margin-bottom: 500px;
+  position: absolute;
+}
+footer {
+  margin-top: 580px;
+
+  position: absolute;
+}
+.singleP {
+  text-decoration: underline;
+  margin-bottom: 450px;
+  position: absolute;
+  padding: 23px;
+  color: green;
+}
+.singleP button {
+  padding: 10px;
+  margin-top: 30px;
+}
+.p1_control {
+  /* margin-bottom: 400px; */
+  position: absolute;
+}
+.dp {
+  text-decoration: underline;
+  color: green;
+  margin-right: 38px;
+}
+.p1_control button {
+  padding: 10px;
+  margin-top: 30px;
+}
+.p2_control {
+  margin-top: 400px;
+  position: absolute;
+}
+.p2_control button {
+  padding: 10px;
+  margin-top: 30px;
+}
